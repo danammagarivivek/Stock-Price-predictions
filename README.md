@@ -47,66 +47,6 @@ app for live inference.
 
 ------------------------------------------------------------------------
 
-## ⚙️ Installation
-
-1.  **Clone the Repository**
-
-    ``` bash
-    git clone https://github.com/Prerna77Arora/Stock_Price_Prediction_Tool.git
-    cd Stock_Price_Prediction_Tool
-    ```
-
-2.  **Create Virtual Environment**
-
-    ``` bash
-    python -m venv venv
-    source venv/bin/activate       # macOS/Linux
-    venv\Scripts\activate        # Windows
-    ```
-
-3.  **Install Requirements**
-
-    ``` bash
-    pip install -r requirements.txt
-    ```
-
-4.  **Add .env File** Create a `.env` file in the project root with your
-    API key:
-
-    ``` env
-    NEWS_API_KEY=your_api_key_here
-    ```
-
-------------------------------------------------------------------------
-
-## 🧩 Model Training (in Google Colab)
-
-To retrain models: 1. Open `model_training.ipynb` or `train_model.py` in
-Google Colab\
-2. Train the LSTM model for multiple stocks\
-3. The trained `.keras` models and scalers will be saved in `/models`
-
-------------------------------------------------------------------------
-
-## 🖥️ Run the Streamlit App
-
-``` bash
-streamlit run app.py
-```
-
-Then open the URL shown in your terminal (usually
-`http://localhost:8501`).
-
-------------------------------------------------------------------------
-
-## 📊 Example Outputs
-
--   **Predicted Price:** Model's forecast for next trading day\
--   **Latest Price:** Most recent closing price\
--   **Suggestion:** Buy / Sell / Hold decision based on price change
-    threshold
-
-------------------------------------------------------------------------
 
 ## 🧠 Technologies Used
 
@@ -121,17 +61,3 @@ Then open the URL shown in your terminal (usually
 
 ------------------------------------------------------------------------
 
-## ⚠️ Note
-
--   `.env` file and model weights are **not included** for security.\
--   Some APIs (like NewsAPI) require an API key.
-
-------------------------------------------------------------------------
-
-## 👩‍💻 Author
-
-**Prerna Arora**\
-B.Tech CSE \| Rajiv Gandhi Institute of Petroleum Technology\
-GitHub: [@Prerna77Arora](https://github.com/Prerna77Arora)
-
-------------------------------------------------------------------------
